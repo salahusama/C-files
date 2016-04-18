@@ -3,7 +3,7 @@ This program calculates and displays the transpose of a matrix entered by the us
 Salaheldin Akl
 16 April 2016
 */
-
+#include <stdlib.h>
 #include <stdio.h>
 
 main()
