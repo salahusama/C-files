@@ -1,8 +1,9 @@
 /*
-This program calculates and displays the transpose of a matrix entered by the user
-Salaheldin Akl
-16 April 2016
-*/
+ * This program calculates and displays the transpose of a matrix entered by the user
+ * Salaheldin Akl
+ * 16 April 2016
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 
