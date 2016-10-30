@@ -1,7 +1,7 @@
 /*
-Program to combine and sort 3 lists of students - All students sorted by their ID - only IDs are sorted, need fix
-Salaheldin AKl
-21 April 2016
+ * Program to combine and sort 3 lists of students - All students sorted by their ID - only IDs are sorted, need fix
+ * Salaheldin AKl
+ * 21 April 2016
 */
 
 #include <stdio.h>
@@ -39,7 +39,7 @@ void mergeSort(struct student *, int, int);
 void merge(struct student *, int, int, int);
 void combine(void);
 
-main()
+int main(void)
 {
 	// load student data
 	student_information();
@@ -105,11 +105,11 @@ main()
 		printf("Enter to Continue\n");
 		getchar();
 	}
+	return 0;
 }//end main()
 
 // fxn Implementation
 //
-
 void insertionSort(struct student *A, int N)
 {
     register int i, j;
